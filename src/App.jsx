@@ -1,11 +1,9 @@
-import React from 'react'; // ✅ Must be at the top
+import React from 'react';
 import { useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import jsPDF from 'jspdf';
-
-// ...rest of your App component
 
 export default function App() {
   const [tubes, setTubes] = useState([{ od: "", id: "", length: "", qty: "" }]);
